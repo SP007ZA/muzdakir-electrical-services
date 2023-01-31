@@ -10,7 +10,7 @@ const Navbar = () => {
     <>
     <Flex w="100%" display={["flex", "flex", "flex", "none"]}  flexDirection="column"  >
     <Flex height="90px" bgColor="white" pl={4} pr={4} alignItems="center"  justifyContent="space-between" borderBottom="2px" borderBottomColor="blue.700">
-           <Link href="/" passHref>
+           <Link to="home" spy={true} smooth={true} offset={-50} duration={500}>
            <Flex  alignItems="center">
             <Image height={["50px", "75px"]} src='/images/electricity-logo.PNG' alt="electricty-logo" />  
                 <Text fontSize={["md", "xl"]}ml={3} color="blue.700" textAlign="center">Muzdakir Electrical Services</Text>
@@ -100,7 +100,7 @@ const Navbar = () => {
         </Flex>
         </Flex>
         <Flex height="90px" bgColor="white" pl={20} pr={20}  justifyContent="space-between" borderBottom="2px" borderBottomColor="blue.700">
-           <Link href="/" passHref>
+           <Link to="home" spy={true} smooth={true} offset={-50} duration={500}>
            <Flex  alignItems="center" cursor="pointer">
                 <Image height="75px" src='/images/electricity-logo.PNG' alt="electricty-logo" />  
                 <Text fontSize='2xl' ml={3} color="blue.700" textAlign="center">Muzdakir Electrical Services</Text>
@@ -109,7 +109,7 @@ const Navbar = () => {
 
             <HStack>
           <Box display="flex" alignItems="center" _hover={{bgColor: "blue.300"}} bgColor="blue.700" border="1px" pl={2} pr={2} h='30px'  cursor="pointer" >
-              <Link to="/" spy={true} smooth={true} offset={-50} duration={500}>
+              <Link to="home" spy={true} smooth={true} offset={-50} duration={500}>
               <Text color="white"  fontSize="sm">HOME</Text>
               </Link>
           </Box>
