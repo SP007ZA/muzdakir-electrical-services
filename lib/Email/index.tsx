@@ -2,6 +2,7 @@ import { createTransport } from 'nodemailer'
 import { messageReceived, message } from './EmailTemplates'
 
 const transport = createTransport({
+    //@ts-ignore
     host: process.env.MAIL_HOST!,
     port: process.env.MAIL_PORT!,
     secure: true,
