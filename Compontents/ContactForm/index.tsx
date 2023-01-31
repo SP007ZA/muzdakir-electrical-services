@@ -55,7 +55,7 @@ const ContactForm = () => {
     validate,
     onSubmit: async (values) => {
       setDisableButton(true)
-      alert(JSON.stringify(values, null, 2));
+      //alert(JSON.stringify(values, null, 2));
       
       const messageReceived = {
         name: values.name,
