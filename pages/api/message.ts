@@ -14,6 +14,7 @@ export default async function handler(
 
 const messageString= req.query.messageReceived
 
+//@ts-ignore
 const messageObj = JSON.parse(messageString)
 
 const { name,  email, phone, text} = messageObj
