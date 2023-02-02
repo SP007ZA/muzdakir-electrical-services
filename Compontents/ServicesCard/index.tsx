@@ -1,6 +1,6 @@
 import { Box, Heading, SimpleGrid, Text } from '@chakra-ui/react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSolarPanel, faScrewdriverWrench, faBolt, faGears, faWater, faCircleCheck} from '@fortawesome/free-solid-svg-icons'
+import { faSolarPanel, faScrewdriverWrench, faBolt, faGears, faWater, faCircleCheck, faCamera} from '@fortawesome/free-solid-svg-icons'
 import Image from 'next/image'
 import React from 'react'
 import { Card, CardBody, CardHeader } from '@chakra-ui/card'
@@ -93,7 +93,7 @@ const ServiceCard = () => {
 
   <Card minHeight='350px'>
  <Box display='flex' flexDirection='column' alignItems='center' marginTop={4}> 
- <FontAwesomeIcon  style={{width: '64px'}} icon={faGears} />
+ <FontAwesomeIcon  style={{width: '64px'}} icon={faCamera} />
  </Box>
  <CardHeader alignSelf='center' padding={2}>
  <Heading as='h4'   size='md'  color="blue.700" >
