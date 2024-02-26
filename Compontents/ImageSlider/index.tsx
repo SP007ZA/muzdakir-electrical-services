@@ -38,7 +38,7 @@ function ImageSlider() {
       <div className={styles.carousel_text}>
         <Flex w="auto" flexDirection="column" alignItems="center" justifyContent="center"  >
         <Heading color="white" as='h2' size={['xs','sm', 'md','lg']}>
-    MUZDAKIR ELECTRICAL SERVICES
+    TES ELECTRICAL SERVICES
   </Heading>
   <Text mt={4} color="white" p={3} fontSize={['xs','sm', 'md','lg']}>Qualified and experienced professional in the electrical services field. </Text>
  <Link to="contact" spy={true} smooth={true} offset={-50} duration={500}>

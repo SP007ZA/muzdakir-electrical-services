@@ -137,8 +137,6 @@ const ContactForm = () => {
             <option value='tripping'>Tripping problems</option>
             <option value='solar-installation'>Solar installations</option>
             <option value='solar-lights'>Solar lights for complexes</option>
-            <option value='gate-garage-motors'>Gate & Garage Motors</option>
-            <option value='cctv-installation'>CCTV Instllation</option>
             <option value='electric-fencing'>Electric Fencing</option>
             </Select>
             {formik.touched.service && formik.errors.service ? (

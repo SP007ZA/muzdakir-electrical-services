@@ -15,11 +15,11 @@ const About = () => {
    >
      <Box display='flex' borderBottom='1px' borderColor='red' padding={5}>
      <Heading as='h1' size={['sm', 'md','xl']}  mr={2}  color='gray.600' >
-    About <Box as='span' color="blue.700">Muzdakir Electrical Services</Box>
+    About <Box as='span' color="blue.700">TES Electrical Services</Box>
   </Heading>
      </Box>
      <Text fontSize={['md','md','xl']} color='gray.500' padding={2}>
-     Muzdakir Electrical Services is involved in a variety of electrical and security work ranging from domestic to industrial installations, gate motor installations, electric fence installations, intercom installations and CCTV installations. We pride ourselves in quality workmanship and service excellence. Manuka Electrical Solutions is an authorised company and registered with all relevant authorities situated in Ekurhuleni. Our knowledge of the electrical and security industry allows us to be hands on in every aspect of the job from the beginning to the end.
+     TES Electrical Services is involved in a variety of electrical and security work ranging from domestic to industrial installations, gate motor installations, electric fence installations. We pride ourselves in quality workmanship and service excellence. TES Electrical Solutions is an authorised company and registered with all relevant authorities situated in Ekurhuleni. Our electrical knowledge allows us to be hands on in every aspect of the job from the beginning to the end.
     </Text>
     <Box
       display='flex'
@@ -39,7 +39,7 @@ const About = () => {
   </Heading>
      </Box>
      <Text fontSize={['md','md','lg']} color='gray.500' padding={2}>
-     Muzdakir Electrical Services wishes to play a significant role in the infrastructure development of Gauteng Province and of South Africa as a whole by creating partnership with other emerging contractors
+     TES Electrical Services wishes to play a significant role in the infrastructure development of Gauteng Province and of South Africa as a whole by creating partnership with other emerging contractors
     </Text>
         <Box display='flex' justifyContent='center' >
      <Heading as='h5'  borderBottom='1px' borderColor='red' paddingBottom={3}  size={['sm', 'md','lg']}  mr={2}  color='gray.600' >
@@ -47,7 +47,7 @@ const About = () => {
   </Heading>
      </Box>
      <Text fontSize={['md','md','lg']} color='gray.500' padding={2}>
-     We value our work ethics in highest nature, to be productive and proactive in our projects, to be accountable of all work undertaken by Muzdakir Electrical Services. We pride ourselves in quality that speaks for itself without compromising safety and reliability.
+     We value our work ethics in highest nature, to be productive and proactive in our projects, to be accountable of all work undertaken by TES Electrical Services. We pride ourselves in quality that speaks for itself without compromising safety and reliability.
     </Text>
 
 

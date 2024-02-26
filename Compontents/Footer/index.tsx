@@ -37,13 +37,13 @@ const Footer = () => {
      <Box display='flex' >
     <FontAwesomeIcon  style={{width: '18px'}} color='red'  icon={faLocationDot} />
     <Text padding={2}  color="white">
-    235 Chloorkop Kempton Park Gauteng 1632
+    No.5 Steenbok Street Villa Liza Boksburg 1459
     </Text>
     </Box>
      <Box display='flex' >
     <FontAwesomeIcon  style={{width: '18px'}} color='blue'  icon={faPhone} />
     <Text padding={2} color="white">
-    +27 63 003 8464
+    +27 73 228 7500
     </Text>
     </Box>
      </Flex>

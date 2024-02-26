@@ -13,7 +13,7 @@ const Navbar = () => {
            <Link to="home" spy={true} smooth={true} offset={-50} duration={500}>
            <Flex  alignItems="center">
             <Image height={["50px", "75px"]} src='/images/electricity-logo.PNG' alt="electricty-logo" />  
-                <Text fontSize={["md", "xl"]}ml={3} color="blue.700" textAlign="center">Muzdakir Electrical Services</Text>
+                <Text fontSize={["md", "xl"]}ml={3} color="blue.700" textAlign="center">TES Electrical Services</Text>
             </Flex>
            </Link>
             {
@@ -70,7 +70,7 @@ const Navbar = () => {
         <EmailIcon color="white"/>
         </Flex>
        
-        <Text fontSize='sm' color="white">muzdakirelectrical@gmail.com</Text>
+        <Text fontSize='sm' color="white">support@teselectical.co.za</Text>
         </Flex>
                 
             </VStack>
@@ -89,21 +89,21 @@ const Navbar = () => {
         <Flex mt={1} mr={1}>
         <PhoneIcon color="white" />
         </Flex>
-        <Text fontSize='sm' color="white">+27(0) 63 003 8464</Text>
+        <Text fontSize='sm' color="white">+27(0) 73 228 7500</Text>
         </Flex>
         <Flex>
         <Flex mt={1} mr={1}>
         <EmailIcon color="white"/>
         </Flex>
        
-        <Text fontSize='sm' color="white">muzdakirelectrical@gmail.com</Text>
+        <Text fontSize='sm' color="white">support@teselectical.co.za</Text>
         </Flex>
         </Flex>
         <Flex height="90px" bgColor="white" pl={20} pr={20}  justifyContent="space-between" borderBottom="2px" borderBottomColor="blue.700">
            <Link to="home" spy={true} smooth={true} offset={-50} duration={500}>
            <Flex  alignItems="center" cursor="pointer">
                 <Image height="75px" src='/images/electricity-logo.PNG' alt="electricty-logo" />  
-                <Text fontSize='2xl' ml={3} color="blue.700" textAlign="center">Muzdakir Electrical Services</Text>
+                <Text fontSize='2xl' ml={3} color="blue.700" textAlign="center">TES Electrical Services</Text>
             </Flex>
            </Link>
 

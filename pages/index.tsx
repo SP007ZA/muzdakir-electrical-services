@@ -20,7 +20,7 @@ const Home: NextPage = () => {
     <ServiceCard />
     <GetInRTouch/>
     <Footer/>
-    <FloatingWhatsApp phoneNumber='+27630038464' accountName='Peter'  avatar='/images/electricity-logo.PNG'/>
+    <FloatingWhatsApp phoneNumber='+27681602785' accountName='TES ELECTRICAL'  avatar='/images/electricity-logo.PNG'/>
     </Flex>
   )
 }

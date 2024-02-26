@@ -1,7 +1,6 @@
 import { Box, Heading, SimpleGrid, Text } from '@chakra-ui/react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSolarPanel, faScrewdriverWrench, faBolt, faGears, faWater, faCircleCheck, faCamera} from '@fortawesome/free-solid-svg-icons'
-import Image from 'next/image'
 import React from 'react'
 import { Card, CardBody, CardHeader } from '@chakra-ui/card'
 
@@ -74,38 +73,8 @@ const ServiceCard = () => {
   </Text>
  </CardBody>
   </Card>
-  <Card minHeight='350px'>
- <Box display='flex' flexDirection='column' alignItems='center' marginTop={4}> 
- <FontAwesomeIcon  style={{width: '64px'}} icon={faGears} />
- </Box>
- <CardHeader alignSelf='center' padding={2}>
- <Heading as='h4'   size='md'  color="blue.700" >
- GATE & GARAGE MOTORS
-  </Heading>
- </CardHeader>
- <CardBody padding={4}>
-  <Text color='gray.500'>
-  We do new installations, fault finding and repairs of Gate and Garage motors. We have vast experience working with different types of gate and garage motors like; Centurion Swing & Sliding motors, Hansa Swing & Sliding motors, Gemini Sliding motors, ET motors and Digi-Door motors.
-  </Text>
- </CardBody>
-  </Card>
 
 
-  <Card minHeight='350px'>
- <Box display='flex' flexDirection='column' alignItems='center' marginTop={4}> 
- <FontAwesomeIcon  style={{width: '64px'}} icon={faCamera} />
- </Box>
- <CardHeader alignSelf='center' padding={2}>
- <Heading as='h4'   size='md'  color="blue.700" >
- CCTV INSTALLATIONS
-  </Heading>
- </CardHeader>
- <CardBody padding={4}>
-  <Text color='gray.500'>
-  We do new installations, fault finding and repairs of Gate and Garage motors. We have vast experience working with different types of gate and garage motors like; Centurion Swing & Sliding motors, Hansa Swing & Sliding motors, Gemini Sliding motors, ET motors and Digi-Door motors.
-  </Text>
- </CardBody>
-  </Card>
   <Card minHeight='350px'>
  <Box display='flex' flexDirection='column' alignItems='center' marginTop={4}> 
  <FontAwesomeIcon  style={{width: '64px'}} icon={faWater} />
@@ -117,7 +86,7 @@ const ServiceCard = () => {
  </CardHeader>
  <CardBody padding={4}>
   <Text color='gray.500'>
-  Muzdakir Electrical Services supplys and installs top quality fencing products and services. We do repairs & maintenance of fencing, intercoms, alarms and motorised gate systems.
+  TES Electrical Services supplys and installs top quality fencing products and services. We do repairs & maintenance of fencing, intercoms, alarms and motorised gate systems.
   </Text>
  </CardBody>
   </Card>
