@@ -34,7 +34,7 @@ export function messageReceived(userName:string) {
                     <br font-family:"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;box-sizing:border-box;font-size:14px;line-height:1.5>
                     <br font-family:"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;box-sizing:border-box;font-size:14px;line-height:1.5>
 
-                Thank you for contacting Muzdakir Electrical Services. We will be in contact with you as soon as possible with regards to your Message.
+                Thank you for contacting TES Electrical Services. We will be in contact with you as soon as possible with regards to your Message.
             
                 <br font-family:"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;box-sizing:border-box;font-size:14px;line-height:1.5>
                 <br font-family:"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;box-sizing:border-box;font-size:14px;line-height:1.5>
