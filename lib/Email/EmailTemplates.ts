@@ -127,9 +127,9 @@ export function message(userName:string, email: string, message: string, phone: 
                 <br font-family:"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;box-sizing:border-box;font-size:14px;line-height:1.5>
                 <br font-family:"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;box-sizing:border-box;font-size:14px;line-height:1.5>
 
-                Peter
+                TES
                 Principal Electrical Technitian
-                (+27) 63 003 8464
+                (+27) 63 288 7500
 
                 </td>
                 </tr>

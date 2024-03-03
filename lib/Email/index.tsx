@@ -6,10 +6,10 @@ const transport = createTransport({
     host: process.env.MAIL_HOST!,
     port: process.env.MAIL_PORT!,
     secure: true,
-    service: 'gmail',
+    //service: 'zoho',
     auth: {
         user: process.env.MAIL_USER!,
-        pass: process.env.FA_PASSWORD!
+        pass: process.env.MAIL_PASS!
     } 
 })
 
@@ -19,7 +19,7 @@ export  async function sendMessageReceived(userName:string, email: string) {
 
    await transport.sendMail({
         to: email,
-        from: 'mzansionlinecv@gmail.com',
+        from: process.env.MAIL_USER!,
         subject: '⚡ No-Reply Message Received',
         html: messageReceived(userName)
     }) 
@@ -29,8 +29,8 @@ export  async function receiveMessage(userName:string, email: string, phone: str
     
 
    await transport.sendMail({
-        to: 'maphanga1sp@gmail.com',
-        from: 'mzansionlinecv@gmail.com',
+        to: 'support@teselectrical.co.za',
+        from: process.env.MAIL_USER!,
         subject: '⚡ Message Received',
         html: message(userName, email, text, phone)
     }) 

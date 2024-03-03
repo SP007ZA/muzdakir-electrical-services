@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import axios from 'axios'
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
-import { copyFile } from "fs";
+
 
 interface Error {
   name?: string | null
@@ -53,7 +53,7 @@ const ContactForm = () => {
       rememberMe: false
     },
     validate,
-    onSubmit: async (values) => {
+    onSubmit: async (values, {resetForm}) => {
       setDisableButton(true)
       //alert(JSON.stringify(values, null, 2));
       
@@ -69,7 +69,7 @@ const ContactForm = () => {
 
    if(data) {
       toast.success("Message sent, we will contact you shortly")
-
+      resetForm()
    }
 
 
@@ -130,14 +130,14 @@ const ContactForm = () => {
             </FormControl>
             <FormControl>
             <Select  name="service" value={formik.values.service} onBlur={formik.handleBlur} onChange={formik.handleChange} placeholder='Choose A Service'>
-            <option value='installations'>Electrical installations</option>
-            <option value='maintenance'>Electrical maitenance an repairs</option>
-            <option value='rewiring'>Rewiring for renovations/additionals</option>
+            <option value='tubing'>Tubing</option>
+            <option value='wiring'>Wiring</option>
             <option value='house-wiring'>House wiring</option>
-            <option value='tripping'>Tripping problems</option>
-            <option value='solar-installation'>Solar installations</option>
-            <option value='solar-lights'>Solar lights for complexes</option>
-            <option value='electric-fencing'>Electric Fencing</option>
+            <option value='power-tripping'>Power Tripping/Failures</option>
+            <option value='backup-solar-system'>Backup & Solar system</option>
+            <option value='generator-installation'>Generator Instalation</option>
+            
+           
             </Select>
             {formik.touched.service && formik.errors.service ? (
          <Text color='red.400'>{formik.errors.service}</Text>
@@ -158,17 +158,10 @@ const ContactForm = () => {
             </FormControl>
       
             <Button 
-            disabled={
-              formik.touched.name && formik.errors.name
-              ||  formik.touched.phone && formik.errors.phone 
-              ||  formik.touched.email && formik.errors.email
-              ||  formik.touched.text && formik.errors.text
-              || disableButton
-               ? true : false} 
             type="submit" 
             colorScheme="linkedin" 
             width="full">
-              Send
+              Send Message
             </Button>
           </VStack>
         </form>
