@@ -31,7 +31,7 @@ function ImageSlider() {
       {
         SlideData.slideData.map((image, index) => (
           <div key={index}  className={index == current ? styles["carousel_card"]+ " "+ styles["carousel_card_active"] : styles.carousel_card }>
-          <img className={styles.card_image} src={image.image} /> 
+          <img className={styles.card_image} src={image.url} alt={image.alt} /> 
           </div>
         ))
       }

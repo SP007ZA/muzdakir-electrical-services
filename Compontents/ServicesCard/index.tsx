@@ -16,7 +16,7 @@ const ServiceCard = () => {
    
     <Box
     id="services"
-   
+   justifyContent="center"
     padding={8}>
       <Box
        fontWeight='semibold'
