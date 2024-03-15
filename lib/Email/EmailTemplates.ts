@@ -56,7 +56,7 @@ export function messageReceived(userName:string) {
 
                 TES
                 Principal Electrical Technitian
-                (+27) 63 288 7500
+                (+27) 73 288 7500
 
                 </td>
                 </tr>
@@ -129,7 +129,7 @@ export function message(userName:string, email: string, message: string, phone: 
 
                 TES
                 Principal Electrical Technitian
-                (+27) 63 288 7500
+                (+27) 73 288 7500
 
                 </td>
                 </tr>
