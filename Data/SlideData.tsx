@@ -33,5 +33,14 @@ export const GalleryImages = {
         {url: "/images/IMG-20240215-WA0052.jpg", alt: '16'},
         {url: "/images/IMG-20240215-WA0053.jpg", alt: '17'},
         {url: "/images/IMG-20240215-WA0056.jpg", alt: '18'},
+        {url: "/images/IMG-20240215-WA0020.jpg", alt: '19'},
+        {url: "/images/IMG-20240215-WA0027.jpg", alt: '20'},
+        {url: "/images/IMG-20240215-WA0039.jpg", alt: '21'},
+        {url: "/images/IMG-20240215-WA0043.jpg", alt: '22'},
+        {url: "/images/IMG-20240215-WA0054.jpg", alt: '23'},
+        {url: "/images/IMG-20240215-WA0055.jpg", alt: '24'},
+        {url: "/images/IMG-20240419-WA0014.jpg", alt: '25'},
+        {url: "/images/IMG-20240419-WA0016.jpg", alt: '26'},
+        {url: "/images/IMG-20240419-WA0018.jpg", alt: '27'},
     ]
 }

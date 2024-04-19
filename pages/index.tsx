@@ -10,6 +10,7 @@ import GetInRTouch from '../Compontents/GetInTouch'
 import Footer from '../Compontents/Footer'
 import ImageGallery from '../Compontents/ImageGallery'
 import { GalleryImages } from '../Data/SlideData'
+import HorizontalImageSlider from '../Compontents/HorizontalImageSlider'
 
 
 
@@ -20,7 +21,7 @@ const Home: NextPage = () => {
     <Divider/>
     <About/>
     <ServiceCard />
-    <ImageGallery images={GalleryImages.image} />
+    <HorizontalImageSlider images={GalleryImages.image} />
     <GetInRTouch/>
     <Footer/>
     <FloatingWhatsApp phoneNumber='+27681602785' accountName='TES ELECTRICAL'  avatar='/images/electricity-logo.PNG'/>

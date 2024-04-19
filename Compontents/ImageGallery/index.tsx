@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Grid, Image, Button, Flex, Modal, ModalOverlay, ModalContent, ModalBody } from '@chakra-ui/react';
+import { Box, Grid, Image, Button, Flex, Modal, ModalOverlay, ModalContent, ModalBody, Heading } from '@chakra-ui/react';
 
 
 const ImageGallery = ({ images }: any) => {
@@ -39,7 +39,8 @@ const ImageGallery = ({ images }: any) => {
   };
 
   return (
-    <Box>
+    <Box display="flex" flexDir="column" padding={8}>
+      <Heading mb={5}>Image Gallery</Heading>
       <Grid templateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)', lg: 'repeat(3, 1fr)' }} gap={4}>
         {renderImages()}
       </Grid>

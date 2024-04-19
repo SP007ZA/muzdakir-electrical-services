@@ -26,7 +26,7 @@ function ImageSlider() {
      setCurrent(current ===  0 ?  SlideData.slideData.length -1 : current - 1)
    }
   return (
-    <div className={styles.carousel}>
+    <Box  display="flex" height="125%" width="100%">
         <div className={styles.carousel_wrapper}>
       {
         SlideData.slideData.map((image, index) => (
@@ -37,10 +37,10 @@ function ImageSlider() {
       }
       <div className={styles.carousel_text}>
         <Flex w="auto" flexDirection="column" alignItems="center" justifyContent="center"  >
-        <Heading color="white" as='h2' size={['xs','sm', 'md','lg']}>
+        <Heading color="white" as='h2' size={['sm','sm', 'md','lg']}>
     TES ELECTRICAL SERVICES
   </Heading>
-  <Text mt={4} color="white" p={3} fontSize={['xs','sm', 'md','lg']}>Qualified and experienced professional in the electrical services field. </Text>
+  <Text mt={0} color="white" p={3} fontSize={['2xs','sm', 'md','lg']}>Qualified and experienced professional in the electrical services field. </Text>
  <Link to="contact" spy={true} smooth={true} offset={-50} duration={500}>
  <Button mt={2} colorScheme="blackAlpha" size={['xs','sm', 'md','lg']}>
    Get A Quote
@@ -64,7 +64,7 @@ function ImageSlider() {
       </div>
         </div>
 
-    </div>
+        </Box>
       
 
   

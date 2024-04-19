@@ -7,7 +7,7 @@ const BannerForm = () => {
 
 
   return (
-    <Flex  flexDirection="column" height={["1200px", "1200px", "700px"]} >
+    <Flex  flexDirection="column" height="400px" >
         <Flex w="100%" flexDirection={["column", "column","row"]} h="80%"  justifyContent="space-between" mt={1}>
     
                     <ImageSlider  />   
